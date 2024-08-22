@@ -45,4 +45,8 @@ const getTickets = async (req, res) => {
   }
 };
 
+const getTicketById = async (req, res) => {
+    
+}
+
 module.exports = { bookTicket, getTickets };
