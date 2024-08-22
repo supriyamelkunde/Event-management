@@ -49,4 +49,4 @@ const getTicketById = async (req, res) => {
     
 }
 
-module.exports = { bookTicket, getTickets };
+module.exports = { bookTicket, getTickets, getTicketById };
