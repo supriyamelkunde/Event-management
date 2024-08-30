@@ -4,7 +4,7 @@ const ticketModel = require('../model/ticket');
 const eventModel = require('../model/event');
 const userModel = require('../model/user');
 
-
+//bookTicket 
 const bookTicket = async (req, res) => {
     try {
         const event = await eventModel.findById(req.body.event);
